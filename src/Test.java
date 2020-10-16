@@ -5,14 +5,14 @@ public class Test {
         YearCheck yearCheck = new YearCheck();
         int year1 = 2012;
         int year2 = 2005;
-        int year3 = 2054;
+        int year3 = 2045;
 
 
-        boolean aaa = yearCheck.hasLeap(year1);
-        System.out.println(aaa);
-        boolean bb = yearCheck.hasLeap(year2);
-        System.out.println(bb);
-        boolean cc = yearCheck.hasLeap(year3);
-        System.out.println(cc);
+        boolean isLeap = yearCheck.hasLeap(year1);
+        System.out.println(isLeap);
+        boolean isLeap1 = yearCheck.hasLeap(year2);
+        System.out.println(isLeap1);
+        boolean isLeap2 = yearCheck.hasLeap(year3);
+        System.out.println(isLeap2);
     }
 }
