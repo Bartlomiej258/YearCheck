@@ -7,7 +7,6 @@ public class Test {
         int year2 = 2005;
         int year3 = 2045;
 
-
         boolean isLeap = yearCheck.hasLeap(year1);
         System.out.println(isLeap);
         boolean isLeap1 = yearCheck.hasLeap(year2);
